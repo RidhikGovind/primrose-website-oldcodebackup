@@ -1,0 +1,11 @@
+This folder contains all the images related to SEO - OG images of the main pages as well as blog page articles. 
+
+How to create an OG image: 
+- Open figma, create your required OG image of size 1200 x 630px size.
+- Export the image from figma in PNG format
+- Paste it into this folder and deploy this website to the NGINX server. 
+- Now all that is left is to paste the link of this image inside the content partof og:image tag of the specific page
+- the format for the link is - http://primrose.health/assets/og-images/*insert-name-of-the-image*
+- e.g http://primrose.health/assets/og-images/og-image-main.png
+
+Created by: Ridhik Govind (9/2021)

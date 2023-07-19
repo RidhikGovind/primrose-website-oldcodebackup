@@ -1,0 +1,28 @@
+
+@media (max-width: 1000px) {
+  .gallery .image {
+    width: calc(100% / 1);
+    padding: 13px 35px;
+  }
+   .gallery .image img {
+    height: 25vh;
+  }
+  .gallery .image span{
+   flex-direction: column; 
+  } 
+   .preview-box {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .gallery .image {
+    width: 100%;
+    padding: 13px 35px;
+  }
+  .gallery .image img {
+    height: 16vh;
+  }
+  .preview-box {
+    width: 61%;
+  }
+}
